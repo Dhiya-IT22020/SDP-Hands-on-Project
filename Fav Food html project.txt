@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food images</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+   .image-container
+{
+position:relative;
+width:100%;
+max-width:200px;
+}
+.image
+{
+display:block;
+width:700px;
+height:auto;
+}
+.overlay
+{
+position:absolute;
+bottom:0;
+
+color:white;
+font-size:50px;
+font-style: oblique;
+text-align:center;
+padding:100px;
+}
+.image-container:hover .overlay
+{
+opacity:1;
+}
+    </style>
+</head>
+<body>
+   <div class="image-container">
+       <h1>FAV FOODS</h1>
+    <div class="overlay"> SOME OF MY FAV FOODS </div>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvVzqglRhkW6edtMusFtJ9OUF_IGWzdbkekg&usqp=CAU"width="500"alt="food" id="titleimage">
+    </div>
+    <div class="image">
+        <h3 id="favFood1"><i>*KOREAN FOOD (hotdog)*</i>  </h3>
+        <p id="foodDescription"><i>The classic Korean corn dogs are hot dogs coated with a chewy and thick batter made of rice flour instead of corn. 
+            It is deep-fried in hot oil to achieve the crunchiness it needs. It has different variations like rice cakes, fish cakes, and those that have french fries.</i></p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2WEdeN9Mhq3P8sT-RaL1A59E1QIQo4DZzqQ&usqp=CAU"width="500"alt="pic1"id="favFoodimage1">
+    </div>
+    <div class="image">
+        <h3 id="favFood2"><i>Ramyeon</i>  </h3>
+        <p id="foodDescription2"><i>In South Korea, ramen refers almost exclusively to Japanese noodles with fresh ingredients and spices, usually served at restaurants.
+             Meanwhile, ramyeon refers to instant noodles with dried vegetables and artificial flavoring.
+              Ramyeon is served at eateries, too, but cooks use pre-packaged instant noodles.</i></p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiS4SQ2UV30g7cR66SX7dBJOBsWTf3cn6IOg&usqp=CAU"width="500"alt="pic1"id="favFoodimage2">
+    </div>
+    <div class="image">
+        <h3 id="favFood3"><i>Tteokbokki</i>  </h3>
+        <p id="foodDescription3"><i>Tteokbokki is a spicy stir-fried dish that usually consists of cylinder-shaped rice cakes, sweet red chili sauce, and fish cakes.
+             It is considered to be one of the top street food items in Korea, and can usually be bought from street vendors known as pojangmacha..</i></p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOSxKC50gSkSxdNXuMGIB6ntOvc011c7r61Q&usqp=CAU"width="500"alt="pic1"id="favFoodimage3">
+    </div>
+             
+    
+
+</body>
+</html>
